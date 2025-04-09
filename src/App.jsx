@@ -1,0 +1,30 @@
+import './App.css'
+import Brand from './components/Brand'
+import CTA from './components/CTA'
+import Navbar from './components/Navbar'
+import Blog from './containers/Blog'
+import Feature from './containers/Feature'
+import Footer from './containers/Footer'
+import Header from './containers/Header'
+import Possibility from './containers/Possibility'
+import WhatGPT from './containers/WhatGPT'
+
+function App() {
+  return (
+    <div className="App">
+      <div className="gradient_bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT />
+      <Feature />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+    </div>
+  )
+}
+
+export default App
