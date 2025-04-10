@@ -1,7 +1,7 @@
 import './App.css'
 import Brand from './components/Brand'
 import CTA from './components/CTA'
-import Navbar from './components/Navbar'
+import Navbar from './components/navbar/Navbar'
 import Blog from './containers/Blog'
 import Feature from './containers/Feature'
 import Footer from './containers/Footer'
