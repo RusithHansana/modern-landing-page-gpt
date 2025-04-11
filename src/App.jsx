@@ -3,11 +3,11 @@ import Brand from './components/brand/Brand'
 import CTA from './components/CTA'
 import Navbar from './components/navbar/Navbar'
 import Blog from './containers/Blog'
-import Feature from './containers/Feature'
+import Features from './containers/Features'
 import Footer from './containers/Footer'
 import Header from './containers/header/Header'
 import Possibility from './containers/Possibility'
-import WhatGPT from './containers/WhatGPT'
+import WhatGPT from './containers/what-gpt/WhatGPT'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       </div>
       <Brand />
       <WhatGPT />
-      <Feature />
+      <Features />
       <Possibility />
       <CTA />
       <Blog />
