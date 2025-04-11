@@ -1,5 +1,5 @@
 import './App.css'
-import Brand from './components/Brand'
+import Brand from './components/brand/Brand'
 import CTA from './components/CTA'
 import Navbar from './components/navbar/Navbar'
 import Blog from './containers/Blog'
