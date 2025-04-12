@@ -6,7 +6,7 @@ import Blog from './containers/Blog'
 import Features from './containers/features/Features'
 import Footer from './containers/Footer'
 import Header from './containers/header/Header'
-import Possibility from './containers/Possibility'
+import Possibility from './containers/possibility/Possibility'
 import WhatGPT from './containers/what-gpt/WhatGPT'
 
 function App() {
