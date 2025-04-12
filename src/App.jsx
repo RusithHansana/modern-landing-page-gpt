@@ -1,6 +1,6 @@
 import './App.css'
 import Brand from './components/brand/Brand'
-import CTA from './components/CTA'
+import CTA from './components/CTA/CTA'
 import Navbar from './components/navbar/Navbar'
 import Blog from './containers/Blog'
 import Features from './containers/features/Features'
