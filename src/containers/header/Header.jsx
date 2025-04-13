@@ -1,5 +1,4 @@
-import ai from "../../assets/ai.png"
-import people from "../../assets/people.png"
+import { Ai, People } from "../../assets"
 
 import "./header.css"
 
@@ -16,13 +15,13 @@ const Header = () => {
                 </div>
 
                 <div className="gpt__header-content__people">
-                    <img src={people} alt="people" />
+                    <img src={People} alt="people" />
                     <p>1,600 people requested access in the last 24 hours</p>
                 </div>
             </div>
 
             <div className="gpt__header-image">
-                <img src={ai} alt="ai" />
+                <img src={Ai} alt="ai" />
             </div>
         </header>
     )

@@ -1,13 +1,6 @@
 import './App.css'
-import Brand from './components/brand/Brand'
-import CTA from './components/CTA/CTA'
-import Navbar from './components/navbar/Navbar'
-import Blog from './containers/blog/Blog'
-import Features from './containers/features/Features'
-import Footer from './containers/footer/Footer'
-import Header from './containers/header/Header'
-import Possibility from './containers/possibility/Possibility'
-import WhatGPT from './containers/what-gpt/WhatGPT'
+import { Navbar, CTA, Brand } from './components'
+import { Blog, Features, Footer, Header, Possibility, WhatGPT } from './containers'
 
 function App() {
   return (

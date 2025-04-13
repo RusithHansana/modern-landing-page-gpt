@@ -1,8 +1,4 @@
-import google from "../../assets/google.png"
-import slack from "../../assets/slack.png"
-import atlassian from "../../assets/atlassian.png"
-import dropbox from "../../assets/dropbox.png"
-import shopify from "../../assets/shopify.png"
+import { Google, Atlassian, Slack, Dropbox, Shopify } from "../../assets"
 
 import "./brand.css"
 
@@ -10,19 +6,19 @@ const Brand = () => {
     return (
         <div className="gpt__brand section__padding">
             <div>
-                <img src={google} alt="google" />
+                <img src={Google} alt="google" />
             </div>
             <div>
-                <img src={slack} alt="slack" />
+                <img src={Slack} alt="slack" />
             </div>
             <div>
-                <img src={atlassian} alt="atlassian" />
+                <img src={Atlassian} alt="atlassian" />
             </div>
             <div>
-                <img src={dropbox} alt="dropbox" />
+                <img src={Dropbox} alt="dropbox" />
             </div>
             <div>
-                <img src={shopify} alt="shopify" />
+                <img src={Shopify} alt="shopify" />
             </div>
         </div>
     )
