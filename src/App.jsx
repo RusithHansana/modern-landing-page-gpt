@@ -1,24 +1,17 @@
 import './App.css'
-import Brand from './components/Brand'
-import CTA from './components/CTA'
-import Navbar from './components/Navbar'
-import Blog from './containers/Blog'
-import Feature from './containers/Feature'
-import Footer from './containers/Footer'
-import Header from './containers/Header'
-import Possibility from './containers/Possibility'
-import WhatGPT from './containers/WhatGPT'
+import { Navbar, CTA, Brand } from './components'
+import { Blog, Features, Footer, Header, Possibility, WhatGPT } from './containers'
 
 function App() {
   return (
     <div className="App">
-      <div className="gradient_bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
       <Brand />
       <WhatGPT />
-      <Feature />
+      <Features />
       <Possibility />
       <CTA />
       <Blog />
