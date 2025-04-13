@@ -1,5 +1,5 @@
 import { useState } from "react"
-import logo from "../../assets/logo.svg"
+import { Logo } from "../../assets"
 import { AlignJustifyIcon, X } from "lucide-react"
 
 import "./navbar.css"
@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="gpt__navbar-links">
                 {/* Logo */}
                 <div className="gpt__navbar-links_logo">
-                    <img src={logo} alt="Logo" />
+                    <img src={Logo} alt="Logo" />
                 </div>
                 {/* Links */}
                 <div className="gpt__navbar-links_container">

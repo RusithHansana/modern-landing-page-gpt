@@ -1,11 +1,11 @@
-import possibilityImage from "../../assets/possibility.png"
+import { PossibilityImg } from "../../assets"
 import "./possibility.css"
 
 const Possibility = () => {
     return (
         <div className="gpt__possibility section__padding" id="possibility">
             <div className="gpt__possibility-image">
-                <img src={possibilityImage} alt="possibility" />
+                <img src={PossibilityImg} alt="possibility" />
             </div>
 
             <div className="gpt__possibility-content">

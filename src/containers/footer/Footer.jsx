@@ -1,5 +1,5 @@
 import "./footer.css"
-import logo from "../../assets/logo.svg"
+import { Logo } from "../../assets"
 
 const Footer = () => {
     return (
@@ -14,7 +14,7 @@ const Footer = () => {
 
             <div className="div gpt__footer-links">
                 <div className="gpt__footer-links__logo">
-                    <img src={logo} alt="logo" />
+                    <img src={Logo} alt="logo" />
                     <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
                 </div>
 
